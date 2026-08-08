@@ -239,7 +239,7 @@ export default function Projects() {
         </div>
 
         <img
-          src="/dashboard/clv/customer-value-segmentation.png"
+          src="\dashboard\clv\customer-value_segmentation.png"
           alt="Customer Value and Segmentation Dashboard"
           className="w-full border-t border-white/[0.07]"
         />
