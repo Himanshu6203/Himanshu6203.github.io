@@ -199,7 +199,7 @@ export default function Projects() {
         </div>
 
         <img
-          src="/dashboards/clv/executive-summary.png"
+          src="/dashboard/clv/executive-summary.png"
           alt="Customer Lifetime Value Executive Summary Dashboard"
           className="w-full border-t border-white/[0.07]"
         />
@@ -219,7 +219,7 @@ export default function Projects() {
         </div>
 
         <img
-          src="/dashboards/clv/churn-analysis.png"
+          src="/dashboard/clv/churn-analysis.png"
           alt="Customer Churn Analysis Dashboard"
           className="w-full border-t border-white/[0.07]"
         />
@@ -239,7 +239,7 @@ export default function Projects() {
         </div>
 
         <img
-          src="/dashboards/clv/customer-value-segmentation.png"
+          src="/dashboard/clv/customer-value-segmentation.png"
           alt="Customer Value and Segmentation Dashboard"
           className="w-full border-t border-white/[0.07]"
         />
