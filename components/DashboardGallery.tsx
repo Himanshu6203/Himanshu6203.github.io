@@ -227,7 +227,7 @@ export default function DashboardGallery() {
 
                     <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] shadow-2xl shadow-black/40">
                       <img
-                        src="/dashboard/clv/customer-value-segmentation.png"
+                        src="/dashboard/clv/customer-value_segmentation.png"
                         alt="Customer Value and Segmentation Dashboard"
                         className="block h-auto w-full"
                       />
