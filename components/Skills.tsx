@@ -30,7 +30,7 @@ const groupAccents: Record<string, string> = {
   tools: "from-amber-500 to-orange-500",
 };
 
-const barWidths = [95, 90, 82, 78, 72];
+const barWidths = [75, 90, 70, 78, 72];
 
 export default function Skills() {
   return (

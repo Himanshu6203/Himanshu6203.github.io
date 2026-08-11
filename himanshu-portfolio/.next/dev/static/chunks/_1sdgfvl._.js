@@ -2074,12 +2074,12 @@ function DashboardGallery() {
                     className: "absolute right-1/4 top-0 h-[400px] w-[400px] rounded-full bg-cyan-soft/10 blur-[150px]"
                 }, void 0, false, {
                     fileName: "[project]/components/DashboardGallery.tsx",
-                    lineNumber: 35,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/DashboardGallery.tsx",
-                lineNumber: 34,
+                lineNumber: 36,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2092,7 +2092,7 @@ function DashboardGallery() {
                         description: "Interactive Power BI workbooks — every dashboard starts with a business question and ends with a decision-ready view."
                     }, void 0, false, {
                         fileName: "[project]/components/DashboardGallery.tsx",
-                        lineNumber: 39,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2111,7 +2111,7 @@ function DashboardGallery() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/components/DashboardGallery.tsx",
-                                        lineNumber: 60,
+                                        lineNumber: 63,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2119,18 +2119,18 @@ function DashboardGallery() {
                                         children: filter.label
                                     }, void 0, false, {
                                         fileName: "[project]/components/DashboardGallery.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 74,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, filter.id, true, {
                                 fileName: "[project]/components/DashboardGallery.tsx",
-                                lineNumber: 49,
+                                lineNumber: 52,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/DashboardGallery.tsx",
-                        lineNumber: 47,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2167,7 +2167,7 @@ function DashboardGallery() {
                                             onExpand: ()=>setExpanded(dashboard.id)
                                         }, void 0, false, {
                                             fileName: "[project]/components/DashboardGallery.tsx",
-                                            lineNumber: 83,
+                                            lineNumber: 98,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2180,7 +2180,7 @@ function DashboardGallery() {
                                                             children: dashboard.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DashboardGallery.tsx",
-                                                            lineNumber: 89,
+                                                            lineNumber: 106,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2188,59 +2188,59 @@ function DashboardGallery() {
                                                             children: dashboard.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DashboardGallery.tsx",
-                                                            lineNumber: 92,
+                                                            lineNumber: 110,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/DashboardGallery.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 105,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                     href: `/case-studies/${dashboard.projectSlug}`,
                                                     className: "mt-1 inline-flex shrink-0 items-center gap-1 text-xs font-semibold text-accent-300 transition-colors hover:text-white",
                                                     children: [
-                                                        "Case study ",
+                                                        "Case study",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__["ArrowUpRight"], {
                                                             className: "h-3.5 w-3.5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DashboardGallery.tsx",
-                                                            lineNumber: 100,
-                                                            columnNumber: 32
+                                                            lineNumber: 120,
+                                                            columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/DashboardGallery.tsx",
-                                                    lineNumber: 96,
+                                                    lineNumber: 115,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/DashboardGallery.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 104,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, dashboard.id, true, {
                                     fileName: "[project]/components/DashboardGallery.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 86,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/DashboardGallery.tsx",
-                            lineNumber: 73,
+                            lineNumber: 84,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/DashboardGallery.tsx",
-                        lineNumber: 72,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/DashboardGallery.tsx",
-                lineNumber: 38,
+                lineNumber: 40,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -2254,119 +2254,278 @@ function DashboardGallery() {
                     exit: {
                         opacity: 0
                     },
-                    transition: {
-                        duration: 0.25
-                    },
-                    className: "fixed inset-0 z-[96] flex items-center justify-center bg-ink-950/90 p-4 backdrop-blur-xl sm:p-8",
+                    className: "fixed inset-0 z-[96] overflow-y-auto bg-ink-950/95 p-4 backdrop-blur-xl sm:p-8",
                     onClick: ()=>setExpanded(null),
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                         initial: {
-                            scale: 0.9,
-                            y: 24
+                            opacity: 0,
+                            scale: 0.95,
+                            y: 20
                         },
                         animate: {
+                            opacity: 1,
                             scale: 1,
                             y: 0
                         },
                         exit: {
-                            scale: 0.92,
-                            y: 24
+                            opacity: 0,
+                            scale: 0.95,
+                            y: 20
                         },
                         transition: {
-                            duration: 0.35,
-                            ease: [
-                                0.22,
-                                1,
-                                0.36,
-                                1
-                            ]
+                            duration: 0.3
                         },
-                        className: "relative w-full max-w-4xl",
+                        className: "mx-auto w-full max-w-7xl",
                         onClick: (e)=>e.stopPropagation(),
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mb-4 flex items-center justify-between",
+                                className: "mb-6 flex items-center justify-between",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "font-display text-xl font-semibold text-white",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "font-mono text-[10px] uppercase tracking-[0.3em] text-accent-300",
+                                                children: expandedDashboard.project
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/DashboardGallery.tsx",
+                                                lineNumber: 165,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                className: "mt-1 font-display text-2xl font-bold text-white sm:text-3xl",
                                                 children: expandedDashboard.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/DashboardGallery.tsx",
-                                                lineNumber: 130,
+                                                lineNumber: 169,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "mt-0.5 text-sm text-zinc-500",
+                                                className: "mt-2 text-sm text-zinc-500",
                                                 children: expandedDashboard.description
                                             }, void 0, false, {
                                                 fileName: "[project]/components/DashboardGallery.tsx",
-                                                lineNumber: 133,
+                                                lineNumber: 173,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/DashboardGallery.tsx",
-                                        lineNumber: 129,
+                                        lineNumber: 164,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>setExpanded(null),
-                                        "aria-label": "Close preview",
-                                        className: "flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/[0.05] text-zinc-200 transition-colors hover:bg-white/[0.12]",
+                                        "aria-label": "Close dashboard",
+                                        className: "flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.05] text-zinc-300 transition hover:bg-white/[0.1] hover:text-white",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                                             className: "h-5 w-5"
                                         }, void 0, false, {
                                             fileName: "[project]/components/DashboardGallery.tsx",
-                                            lineNumber: 140,
+                                            lineNumber: 183,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/DashboardGallery.tsx",
-                                        lineNumber: 135,
+                                        lineNumber: 178,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/DashboardGallery.tsx",
-                                lineNumber: 128,
+                                lineNumber: 163,
                                 columnNumber: 15
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "overflow-hidden rounded-2xl shadow-2xl shadow-black/60 ring-1 ring-white/10",
+                            expandedDashboard.projectSlug === "customer-lifetime-value" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "space-y-8",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mb-3 flex items-center gap-3",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "rounded-full bg-accent-500/10 px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-wider text-accent-300",
+                                                        children: "Page 01"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/DashboardGallery.tsx",
+                                                        lineNumber: 198,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        className: "text-lg font-semibold text-white",
+                                                        children: "Executive Summary"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/DashboardGallery.tsx",
+                                                        lineNumber: 202,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/DashboardGallery.tsx",
+                                                lineNumber: 197,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] shadow-2xl shadow-black/40",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: "/dashboard/clv/executive-summary.png",
+                                                    alt: "CLV Executive Summary Dashboard",
+                                                    className: "block h-auto w-full"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/DashboardGallery.tsx",
+                                                    lineNumber: 208,
+                                                    columnNumber: 23
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/DashboardGallery.tsx",
+                                                lineNumber: 207,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/DashboardGallery.tsx",
+                                        lineNumber: 196,
+                                        columnNumber: 19
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mb-3 flex items-center gap-3",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "rounded-full bg-accent-500/10 px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-wider text-accent-300",
+                                                        children: "Page 02"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/DashboardGallery.tsx",
+                                                        lineNumber: 219,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        className: "text-lg font-semibold text-white",
+                                                        children: "Customer Value & Segmentation"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/DashboardGallery.tsx",
+                                                        lineNumber: 223,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/DashboardGallery.tsx",
+                                                lineNumber: 218,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] shadow-2xl shadow-black/40",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: "/dashboard/clv/customer-value-segmentation.png",
+                                                    alt: "Customer Value and Segmentation Dashboard",
+                                                    className: "block h-auto w-full"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/DashboardGallery.tsx",
+                                                    lineNumber: 229,
+                                                    columnNumber: 23
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/DashboardGallery.tsx",
+                                                lineNumber: 228,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/DashboardGallery.tsx",
+                                        lineNumber: 217,
+                                        columnNumber: 19
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mb-3 flex items-center gap-3",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "rounded-full bg-accent-500/10 px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-wider text-accent-300",
+                                                        children: "Page 03"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/DashboardGallery.tsx",
+                                                        lineNumber: 240,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        className: "text-lg font-semibold text-white",
+                                                        children: "Churn & Retention Analysis"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/DashboardGallery.tsx",
+                                                        lineNumber: 244,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/DashboardGallery.tsx",
+                                                lineNumber: 239,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] shadow-2xl shadow-black/40",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: "/dashboard/clv/churn-analysis.png",
+                                                    alt: "Customer Churn Analysis Dashboard",
+                                                    className: "block h-auto w-full"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/DashboardGallery.tsx",
+                                                    lineNumber: 250,
+                                                    columnNumber: 23
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/DashboardGallery.tsx",
+                                                lineNumber: 249,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/DashboardGallery.tsx",
+                                        lineNumber: 238,
+                                        columnNumber: 19
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/DashboardGallery.tsx",
+                                lineNumber: 193,
+                                columnNumber: 17
+                            }, this) : /* ==========================================================
+                   OTHER DASHBOARDS
+                   ========================================================== */ /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "overflow-hidden rounded-2xl border border-white/10 shadow-2xl shadow-black/50",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$DashboardPreview$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     dashboard: expandedDashboard
                                 }, void 0, false, {
                                     fileName: "[project]/components/DashboardGallery.tsx",
-                                    lineNumber: 144,
-                                    columnNumber: 17
+                                    lineNumber: 265,
+                                    columnNumber: 19
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/DashboardGallery.tsx",
-                                lineNumber: 143,
-                                columnNumber: 15
+                                lineNumber: 264,
+                                columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/DashboardGallery.tsx",
-                        lineNumber: 120,
+                        lineNumber: 142,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/DashboardGallery.tsx",
-                    lineNumber: 112,
+                    lineNumber: 135,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/DashboardGallery.tsx",
-                lineNumber: 110,
+                lineNumber: 133,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/DashboardGallery.tsx",
-        lineNumber: 33,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 }
@@ -3887,11 +4046,11 @@ function Hero() {
                                 },
                                 className: "font-display text-4xl font-bold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-[3.6rem]",
                                 children: [
-                                    "Transforming Data into",
+                                    "Building Analytics That",
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-gradient-animate",
-                                        children: "Business Impact."
+                                        children: "Drive Business Decisions."
                                     }, void 0, false, {
                                         fileName: "[project]/components/Hero.tsx",
                                         lineNumber: 107,
@@ -4011,7 +4170,7 @@ function Hero() {
                                                 lineNumber: 147,
                                                 columnNumber: 15
                                             }, this),
-                                            "Download Resume"
+                                            "View Resumes"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Hero.tsx",
@@ -4029,7 +4188,7 @@ function Hero() {
                                                 lineNumber: 160,
                                                 columnNumber: 15
                                             }, this),
-                                            "Ask Himanshu AI"
+                                            "Ask My AI Assistant"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Hero.tsx",
@@ -4128,7 +4287,7 @@ function Hero() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "font-mono text-[10px] uppercase tracking-[0.3em] text-accent-300",
-                                                        children: "Analytics · At a Glance"
+                                                        children: "Analytics · Portfolio Snapshot"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Hero.tsx",
                                                         lineNumber: 194,
@@ -4136,11 +4295,11 @@ function Hero() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         className: "font-display mt-1 text-lg font-semibold text-white",
-                                                        children: "Data & Business Analytics"
+                                                        children: "Turning Data Into Decisions"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 197,
-                                                        columnNumber: 17
+                                                        lineNumber: 198,
+                                                        columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
@@ -4155,20 +4314,20 @@ function Hero() {
                                                         className: "h-5 w-5 text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 202,
+                                                        lineNumber: 203,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "absolute inset-0 rounded-2xl bg-accent-500/60 animate-pulse-ring"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 203,
+                                                        lineNumber: 204,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 201,
+                                                lineNumber: 202,
                                                 columnNumber: 15
                                             }, this)
                                         ]
@@ -4203,7 +4362,7 @@ function Hero() {
                                                                 className: "h-3.5 w-3.5 text-accent-300 transition-transform duration-300 group-hover:scale-110"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Hero.tsx",
-                                                                lineNumber: 219,
+                                                                lineNumber: 220,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4211,13 +4370,13 @@ function Hero() {
                                                                 children: kpi.label
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Hero.tsx",
-                                                                lineNumber: 220,
+                                                                lineNumber: 221,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 218,
+                                                        lineNumber: 219,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4227,24 +4386,24 @@ function Hero() {
                                                             suffix: kpi.suffix
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Hero.tsx",
-                                                            lineNumber: 225,
+                                                            lineNumber: 226,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 224,
+                                                        lineNumber: 225,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, kpi.label, true, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 211,
+                                                lineNumber: 212,
                                                 columnNumber: 19
                                             }, this);
                                         })
                                     }, void 0, false, {
                                         fileName: "[project]/components/Hero.tsx",
-                                        lineNumber: 207,
+                                        lineNumber: 208,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4255,7 +4414,7 @@ function Hero() {
                                                 children: "Core Stack"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 232,
+                                                lineNumber: 233,
                                                 columnNumber: 3
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4270,18 +4429,18 @@ function Hero() {
                                                         children: tech
                                                     }, tech, false, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 238,
+                                                        lineNumber: 239,
                                                         columnNumber: 7
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 236,
+                                                lineNumber: 237,
                                                 columnNumber: 3
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Hero.tsx",
-                                        lineNumber: 231,
+                                        lineNumber: 232,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4293,12 +4452,12 @@ function Hero() {
                                                     className: "h-4 w-4 text-cyan-300"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Hero.tsx",
-                                                    lineNumber: 250,
+                                                    lineNumber: 251,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 249,
+                                                lineNumber: 250,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4309,7 +4468,7 @@ function Hero() {
                                                         children: "Current Focus"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 253,
+                                                        lineNumber: 254,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4317,13 +4476,13 @@ function Hero() {
                                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["profile"].currentFocus
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 256,
+                                                        lineNumber: 257,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 252,
+                                                lineNumber: 253,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
@@ -4341,13 +4500,13 @@ function Hero() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 260,
+                                                lineNumber: 261,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Hero.tsx",
-                                        lineNumber: 248,
+                                        lineNumber: 249,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -4364,14 +4523,14 @@ function Hero() {
                                         children: "SQL"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Hero.tsx",
-                                        lineNumber: 272,
+                                        lineNumber: 273,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "h-1 w-1 rounded-full bg-emerald-400"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Hero.tsx",
-                                        lineNumber: 273,
+                                        lineNumber: 274,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4379,13 +4538,13 @@ function Hero() {
                                         children: "100+ queries"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Hero.tsx",
-                                        lineNumber: 274,
+                                        lineNumber: 275,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Hero.tsx",
-                                lineNumber: 269,
+                                lineNumber: 270,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -4395,7 +4554,7 @@ function Hero() {
                                         className: "h-4 w-4 text-violet-300"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Hero.tsx",
-                                        lineNumber: 279,
+                                        lineNumber: 280,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4403,13 +4562,13 @@ function Hero() {
                                         children: "Power BI"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Hero.tsx",
-                                        lineNumber: 280,
+                                        lineNumber: 281,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Hero.tsx",
-                                lineNumber: 276,
+                                lineNumber: 277,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -4444,7 +4603,7 @@ function Hero() {
                         children: "Scroll"
                     }, void 0, false, {
                         fileName: "[project]/components/Hero.tsx",
-                        lineNumber: 294,
+                        lineNumber: 295,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
@@ -4464,18 +4623,18 @@ function Hero() {
                             className: "h-4 w-4"
                         }, void 0, false, {
                             fileName: "[project]/components/Hero.tsx",
-                            lineNumber: 299,
+                            lineNumber: 300,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Hero.tsx",
-                        lineNumber: 295,
+                        lineNumber: 296,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Hero.tsx",
-                lineNumber: 286,
+                lineNumber: 287,
                 columnNumber: 7
             }, this),
             showResumeModal && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4490,7 +4649,7 @@ function Hero() {
                             children: "Choose Resume"
                         }, void 0, false, {
                             fileName: "[project]/components/Hero.tsx",
-                            lineNumber: 311,
+                            lineNumber: 312,
                             columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4498,7 +4657,7 @@ function Hero() {
                             children: "Select the resume that best matches the role you're applying for."
                         }, void 0, false, {
                             fileName: "[project]/components/Hero.tsx",
-                            lineNumber: 315,
+                            lineNumber: 316,
                             columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4514,7 +4673,7 @@ function Hero() {
                                             children: "Data Analyst"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.tsx",
-                                            lineNumber: 326,
+                                            lineNumber: 327,
                                             columnNumber: 11
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4522,13 +4681,13 @@ function Hero() {
                                             children: "SQL • Python • Power BI • Excel"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.tsx",
-                                            lineNumber: 327,
+                                            lineNumber: 328,
                                             columnNumber: 11
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Hero.tsx",
-                                    lineNumber: 321,
+                                    lineNumber: 322,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4541,7 +4700,7 @@ function Hero() {
                                             children: "Business Analyst"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.tsx",
-                                            lineNumber: 337,
+                                            lineNumber: 338,
                                             columnNumber: 11
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4549,13 +4708,13 @@ function Hero() {
                                             children: "BRD • SQL • Dashboard • Stakeholder Management"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.tsx",
-                                            lineNumber: 338,
+                                            lineNumber: 339,
                                             columnNumber: 11
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Hero.tsx",
-                                    lineNumber: 332,
+                                    lineNumber: 333,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4568,7 +4727,7 @@ function Hero() {
                                             children: "Product Analyst"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.tsx",
-                                            lineNumber: 348,
+                                            lineNumber: 349,
                                             columnNumber: 11
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4576,13 +4735,13 @@ function Hero() {
                                             children: "Product Metrics • SQL • A/B Testing"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.tsx",
-                                            lineNumber: 349,
+                                            lineNumber: 350,
                                             columnNumber: 11
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Hero.tsx",
-                                    lineNumber: 343,
+                                    lineNumber: 344,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4595,7 +4754,7 @@ function Hero() {
                                             children: "Product Manager"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.tsx",
-                                            lineNumber: 359,
+                                            lineNumber: 360,
                                             columnNumber: 11
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4603,19 +4762,19 @@ function Hero() {
                                             children: "Product Strategy • Roadmaps • User Stories"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.tsx",
-                                            lineNumber: 360,
+                                            lineNumber: 361,
                                             columnNumber: 11
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Hero.tsx",
-                                    lineNumber: 354,
+                                    lineNumber: 355,
                                     columnNumber: 9
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Hero.tsx",
-                            lineNumber: 319,
+                            lineNumber: 320,
                             columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4624,18 +4783,18 @@ function Hero() {
                             children: "Close"
                         }, void 0, false, {
                             fileName: "[project]/components/Hero.tsx",
-                            lineNumber: 367,
+                            lineNumber: 368,
                             columnNumber: 7
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Hero.tsx",
-                    lineNumber: 307,
+                    lineNumber: 308,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Hero.tsx",
-                lineNumber: 303,
+                lineNumber: 304,
                 columnNumber: 3
             }, this)
         ]
@@ -6497,9 +6656,9 @@ const groupAccents = {
     tools: "from-amber-500 to-orange-500"
 };
 const barWidths = [
-    95,
+    75,
     90,
-    82,
+    70,
     78,
     72
 ];
@@ -7246,7 +7405,7 @@ const profile = {
         "Aspiring Product Analyst"
     ],
     heroHeading: "Transforming Data into Business Impact.",
-    heroDescription: "I build end-to-end analytics solutions using SQL, Python, Excel, and Power BI to solve business problems and drive data-informed decisions. My experience spans Data Analytics, Business Analysis, Product Analytics, and Product Management, where I combine technical skills with strategic thinking to create measurable business impact.",
+    heroDescription: "I turn complex data into clear, decision-ready insights using SQL, Python, Power BI, and Excel — from business questions and analysis to dashboards and actionable recommendations.",
     typingRoles: [
         "Data Analyst",
         "Business Analyst",
@@ -7547,7 +7706,7 @@ const caseStudies = {
                 }
             ],
             dashboard: {
-                overview: "A four-page Power BI executive dashboard telling the story from headline value down to segment-level action. The front page is built for a 30-second read; the final page is built for the retention team's weekly workflow.",
+                overview: "Three-page executive analytics suite covering customer lifetime value, retention, RFM segmentation, churn risk, and campaign performance.",
                 pages: [
                     "Executive Overview — CLV trend, revenue by segment, churn rate KPI cards.",
                     "Segmentation — RFM matrix, segment size vs value scatter, moving-bubble view.",

@@ -27,15 +27,18 @@ export default function DashboardGallery() {
     [activeFilter]
   );
 
-  const expandedDashboard = dashboards.find((d) => d.id === expanded) ?? null;
+  const expandedDashboard =
+    dashboards.find((d) => d.id === expanded) ?? null;
 
   return (
     <section id="gallery" className="relative py-24 lg:py-32">
+      {/* Background */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute right-1/4 top-0 h-[400px] w-[400px] rounded-full bg-cyan-soft/10 blur-[150px]" />
       </div>
 
       <div className="mx-auto max-w-6xl px-6">
+        {/* Section Heading */}
         <SectionHeading
           eyebrow="Dashboard Gallery"
           title="Dashboards built for"
@@ -60,16 +63,24 @@ export default function DashboardGallery() {
                 <motion.span
                   layoutId="gallery-pill"
                   className="absolute inset-0 rounded-full bg-gradient-to-r from-accent-500 to-violet-soft shadow-lg shadow-accent-500/25"
-                  transition={{ type: "spring", stiffness: 380, damping: 32 }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 380,
+                    damping: 32,
+                  }}
                 />
               )}
+
               <span className="relative">{filter.label}</span>
             </button>
           ))}
         </div>
 
-        {/* Grid */}
-        <motion.div layout className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+        {/* Dashboard Grid */}
+        <motion.div
+          layout
+          className="grid grid-cols-1 gap-6 lg:grid-cols-2"
+        >
           <AnimatePresence mode="popLayout">
             {visible.map((dashboard) => (
               <motion.div
@@ -78,26 +89,35 @@ export default function DashboardGallery() {
                 initial={{ opacity: 0, scale: 0.94 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.94 }}
-                transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+                transition={{
+                  duration: 0.4,
+                  ease: [0.22, 1, 0.36, 1],
+                }}
               >
+                {/* Dashboard Preview */}
                 <DashboardPreview
                   dashboard={dashboard}
                   onExpand={() => setExpanded(dashboard.id)}
                 />
+
+                {/* Dashboard Information */}
                 <div className="mt-4 flex items-start justify-between gap-3 px-1">
                   <div>
                     <h3 className="font-display text-lg font-semibold text-white">
                       {dashboard.title}
                     </h3>
+
                     <p className="mt-1 text-sm leading-relaxed text-zinc-500">
                       {dashboard.description}
                     </p>
                   </div>
+
                   <a
                     href={`/case-studies/${dashboard.projectSlug}`}
                     className="mt-1 inline-flex shrink-0 items-center gap-1 text-xs font-semibold text-accent-300 transition-colors hover:text-white"
                   >
-                    Case study <ArrowUpRight className="h-3.5 w-3.5" />
+                    Case study
+                    <ArrowUpRight className="h-3.5 w-3.5" />
                   </a>
                 </div>
               </motion.div>
@@ -106,43 +126,145 @@ export default function DashboardGallery() {
         </motion.div>
       </div>
 
-      {/* --------------------- Fullscreen preview modal --------------------- */}
+      {/* ================================================================
+          FULLSCREEN DASHBOARD MODAL
+          ================================================================ */}
+
       <AnimatePresence>
         {expandedDashboard && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.25 }}
-            className="fixed inset-0 z-[96] flex items-center justify-center bg-ink-950/90 p-4 backdrop-blur-xl sm:p-8"
+            className="fixed inset-0 z-[96] overflow-y-auto bg-ink-950/95 p-4 backdrop-blur-xl sm:p-8"
             onClick={() => setExpanded(null)}
           >
             <motion.div
-              initial={{ scale: 0.9, y: 24 }}
-              animate={{ scale: 1, y: 0 }}
-              exit={{ scale: 0.92, y: 24 }}
-              transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-              className="relative w-full max-w-4xl"
+              initial={{
+                opacity: 0,
+                scale: 0.95,
+                y: 20,
+              }}
+              animate={{
+                opacity: 1,
+                scale: 1,
+                y: 0,
+              }}
+              exit={{
+                opacity: 0,
+                scale: 0.95,
+                y: 20,
+              }}
+              transition={{ duration: 0.3 }}
+              className="mx-auto w-full max-w-7xl"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="mb-4 flex items-center justify-between">
+              {/* Modal Header */}
+              <div className="mb-6 flex items-center justify-between">
                 <div>
-                  <h3 className="font-display text-xl font-semibold text-white">
+                  <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent-300">
+                    {expandedDashboard.project}
+                  </p>
+
+                  <h2 className="mt-1 font-display text-2xl font-bold text-white sm:text-3xl">
                     {expandedDashboard.title}
-                  </h3>
-                  <p className="mt-0.5 text-sm text-zinc-500">{expandedDashboard.description}</p>
+                  </h2>
+
+                  <p className="mt-2 text-sm text-zinc-500">
+                    {expandedDashboard.description}
+                  </p>
                 </div>
+
                 <button
                   onClick={() => setExpanded(null)}
-                  aria-label="Close preview"
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/[0.05] text-zinc-200 transition-colors hover:bg-white/[0.12]"
+                  aria-label="Close dashboard"
+                  className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.05] text-zinc-300 transition hover:bg-white/[0.1] hover:text-white"
                 >
                   <X className="h-5 w-5" />
                 </button>
               </div>
-              <div className="overflow-hidden rounded-2xl shadow-2xl shadow-black/60 ring-1 ring-white/10">
-                <DashboardPreview dashboard={expandedDashboard} />
-              </div>
+
+              {/* ==========================================================
+                  CLV DASHBOARD — THREE PAGES
+                  ========================================================== */}
+
+              {expandedDashboard.projectSlug ===
+              "customer-lifetime-value" ? (
+                <div className="space-y-8">
+
+                  {/* PAGE 01 */}
+                  <div>
+                    <div className="mb-3 flex items-center gap-3">
+                      <span className="rounded-full bg-accent-500/10 px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-wider text-accent-300">
+                        Page 01
+                      </span>
+
+                      <h3 className="text-lg font-semibold text-white">
+                        Executive Summary
+                      </h3>
+                    </div>
+
+                    <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] shadow-2xl shadow-black/40">
+                      <img
+                        src="/dashboard/clv/executive-summary.png"
+                        alt="CLV Executive Summary Dashboard"
+                        className="block h-auto w-full"
+                      />
+                    </div>
+                  </div>
+
+                  {/* PAGE 02 */}
+                  <div>
+                    <div className="mb-3 flex items-center gap-3">
+                      <span className="rounded-full bg-accent-500/10 px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-wider text-accent-300">
+                        Page 02
+                      </span>
+
+                      <h3 className="text-lg font-semibold text-white">
+                        Customer Value & Segmentation
+                      </h3>
+                    </div>
+
+                    <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] shadow-2xl shadow-black/40">
+                      <img
+                        src="/dashboard/clv/customer-value-segmentation.png"
+                        alt="Customer Value and Segmentation Dashboard"
+                        className="block h-auto w-full"
+                      />
+                    </div>
+                  </div>
+
+                  {/* PAGE 03 */}
+                  <div>
+                    <div className="mb-3 flex items-center gap-3">
+                      <span className="rounded-full bg-accent-500/10 px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-wider text-accent-300">
+                        Page 03
+                      </span>
+
+                      <h3 className="text-lg font-semibold text-white">
+                        Churn & Retention Analysis
+                      </h3>
+                    </div>
+
+                    <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] shadow-2xl shadow-black/40">
+                      <img
+                        src="/dashboard/clv/churn-analysis.png"
+                        alt="Customer Churn Analysis Dashboard"
+                        className="block h-auto w-full"
+                      />
+                    </div>
+                  </div>
+
+                </div>
+              ) : (
+                /* ==========================================================
+                   OTHER DASHBOARDS
+                   ========================================================== */
+
+                <div className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl shadow-black/50">
+                  <DashboardPreview dashboard={expandedDashboard} />
+                </div>
+              )}
             </motion.div>
           </motion.div>
         )}

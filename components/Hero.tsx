@@ -103,8 +103,8 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.32, ease: [0.22, 1, 0.36, 1] }}
             className="font-display text-4xl font-bold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-[3.6rem]"
           >
-            Transforming Data into{" "}
-            <span className="text-gradient-animate">Business Impact.</span>
+            Building Analytics That{" "}
+            <span className="text-gradient-animate">Drive Business Decisions.</span>
           </motion.h1>
 
           <motion.p
@@ -145,7 +145,7 @@ export default function Hero() {
               className="group inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.04] px-7 py-3.5 text-sm font-semibold text-zinc-100 backdrop-blur transition-all duration-300 hover:border-accent-400/60 hover:bg-white/[0.08] hover:text-white"
             >
               <Download className="h-4 w-4 transition-transform duration-300 group-hover:translate-y-0.5" />
-              Download Resume
+              View Resumes
             </button>
             {/* <button
             onClick={() => alert("Working!")}
@@ -158,7 +158,7 @@ export default function Hero() {
               className="group inline-flex items-center gap-2 rounded-full px-3 py-3.5 text-sm font-semibold text-accent-300 transition-colors duration-300 hover:text-white"
             >
               <Sparkles className="h-4 w-4 transition-transform duration-300 group-hover:rotate-12" />
-              Ask Himanshu AI
+              Ask My AI Assistant
             </a>
           </motion.div>
 
@@ -192,11 +192,12 @@ export default function Hero() {
             <div className="relative flex items-center justify-between">
               <div>
                 <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent-300">
-                  Analytics · At a Glance
+                      Analytics · Portfolio Snapshot
                 </p>
-                <h3 className="font-display mt-1 text-lg font-semibold text-white">
-                  Data & Business Analytics
-                </h3>
+
+                  <h3 className="font-display mt-1 text-lg font-semibold text-white">
+                      Turning Data Into Decisions
+                  </h3>
               </div>
               <div className="relative flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-accent-500 to-violet-soft shadow-lg shadow-accent-500/30">
                 <BarChart3 className="h-5 w-5 text-white" />

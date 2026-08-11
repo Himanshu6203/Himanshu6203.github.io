@@ -9,7 +9,7 @@ export const profile = {
   roles: ["Data Analyst", "Business Analyst", "Aspiring Product Analyst"],
   heroHeading: "Transforming Data into Business Impact.",
   heroDescription:
-    "I build end-to-end analytics solutions using SQL, Python, Excel, and Power BI to solve business problems and drive data-informed decisions. My experience spans Data Analytics, Business Analysis, Product Analytics, and Product Management, where I combine technical skills with strategic thinking to create measurable business impact.",
+  "I turn complex data into clear, decision-ready insights using SQL, Python, Power BI, and Excel — from business questions and analysis to dashboards and actionable recommendations.",
   typingRoles: [
     "Data Analyst",
     "Business Analyst",
@@ -314,7 +314,7 @@ export const caseStudies: Record<string, CaseStudy> = {
       ],
       dashboard: {
         overview:
-          "A four-page Power BI executive dashboard telling the story from headline value down to segment-level action. The front page is built for a 30-second read; the final page is built for the retention team's weekly workflow.",
+          "Three-page executive analytics suite covering customer lifetime value, retention, RFM segmentation, churn risk, and campaign performance.",
         pages: [
           "Executive Overview — CLV trend, revenue by segment, churn rate KPI cards.",
           "Segmentation — RFM matrix, segment size vs value scatter, moving-bubble view.",
