@@ -21,7 +21,9 @@ export default function Contact() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
   const [error, setError] = useState("");
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+
+
+const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
   e.preventDefault();
   setError("");
 
