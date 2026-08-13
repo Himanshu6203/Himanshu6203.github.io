@@ -22,12 +22,12 @@ export const profile = {
     institution: "IIIT Naya Raipur",
     short: "B.Tech ECE · IIIT Naya Raipur",
   },
-  email: "himanshukothariya@gmail.com",
-  github: "https://github.com/himanshukothariya",
-  linkedin: "https://www.linkedin.com/in/himanshu-singh-kothariya",
+  email: "himanshusinghiiitnr@gmail.com",
+  github: "https://github.com/Himanshu6203",
+  linkedin: "https://www.linkedin.com/in/himanshu-singh-kothariya-490a1a28b/",
   location: "Raipur, India",
   currentFocus:  "Analytics, Product Strategy & Business Problem Solving",
-  resumeUrl: "/resume/Data_Analyst_Resume.pdf",
+  resumeUrl: "/resume/DA%20Resume.pdf",
   availability: "Open to Data Analyst, Business Analyst, Product Analyst & Product Manager Opportunities",
 };
 

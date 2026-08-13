@@ -21,25 +21,51 @@ export default function Contact() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
   const [error, setError] = useState("");
 
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    setError("");
-    if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
-      setError("Please fill in your name, email, and message.");
-      return;
-    }
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
-      setError("Please enter a valid email address.");
-      return;
-    }
-    setStatus("sending");
-    // Simulated send — swap with a real endpoint when available.
-    setTimeout(() => {
-      setStatus("sent");
-      setForm(initialForm);
-    }, 1200);
-  };
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  setError("");
 
+  if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
+    setError("Please fill in your name, email, and message.");
+    return;
+  }
+
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
+    setError("Please enter a valid email address.");
+    return;
+  }
+
+  setStatus("sending");
+
+  try {
+    const response = await fetch("https://formspree.io/f/mwlebzwp", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        name: form.name,
+        email: form.email,
+        subject: form.subject || "Portfolio Contact",
+        message: form.message,
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to send message");
+    }
+
+    setStatus("sent");
+    setForm(initialForm);
+  } catch (err) {
+    console.error(err);
+    setStatus("idle");
+    setError(
+      "Sorry, your message could not be sent. Please try again or email me directly."
+    );
+  }
+};
   return (
     <section id="contact" className="relative py-24 lg:py-32">
       <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -195,6 +221,7 @@ export default function Contact() {
                           </label>
                           <input
                             id="name"
+                            name="name"
                             type="text"
                             value={form.name}
                             onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -208,6 +235,7 @@ export default function Contact() {
                           </label>
                           <input
                             id="email"
+                            name="email"                      
                             type="email"
                             value={form.email}
                             onChange={(e) => setForm({ ...form, email: e.target.value })}
@@ -222,6 +250,7 @@ export default function Contact() {
                         </label>
                         <input
                           id="subject"
+                          name="subject"
                           type="text"
                           value={form.subject}
                           onChange={(e) => setForm({ ...form, subject: e.target.value })}
@@ -235,6 +264,7 @@ export default function Contact() {
                         </label>
                         <textarea
                           id="message"
+                          name="message"
                           rows={5}
                           value={form.message}
                           onChange={(e) => setForm({ ...form, message: e.target.value })}
@@ -275,7 +305,7 @@ export default function Contact() {
                         )}
                       </button>
                       <p className="text-center font-mono text-[10px] text-zinc-600">
-                        This demo form simulates delivery — wire it to your email service of choice.
+                        
                       </p>
                     </motion.form>
                   )}
