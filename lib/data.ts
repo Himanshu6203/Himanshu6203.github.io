@@ -128,7 +128,7 @@ export const projects: Project[] = [
     stack: ["SQL", "Python", "Power BI", "Excel"],
     accent: "from-indigo-500 via-violet-500 to-fuchsia-500",
     links: {
-      github: "https://github.com/himanshukothariya/customer-lifetime-value",
+      github: "https://github.com/Himanshu6203/Customer-Churn-Analytics-Retention-Strategy",
       caseStudy: "/case-studies/customer-lifetime-value",
       live: "#gallery",
     },
@@ -144,7 +144,7 @@ export const projects: Project[] = [
     stack: ["SQL", "Python", "Excel", "Power BI"],
     accent: "from-cyan-500 via-sky-500 to-blue-600",
     links: {
-      github: "https://github.com/himanshukothariya/customer-behavior-dashboard",
+      github: "https://github.com/Himanshu6203/customer_behavior_dashboard",
       caseStudy: "/case-studies/customer-behavior-dashboard",
       live: "#gallery",
     },
@@ -159,7 +159,7 @@ export const projects: Project[] = [
     stack: ["Power BI", "SQL", "Excel"],
     accent: "from-amber-400 via-orange-500 to-rose-500",
     links: {
-      github: "https://github.com/himanshukothariya/amazon-sales-dashboard",
+      github: "https://github.com/Himanshu6203/amazon-sales-dashboard",
       caseStudy: "/case-studies/amazon-sales-dashboard",
       live: "#gallery",
     },
@@ -174,7 +174,7 @@ export const projects: Project[] = [
     stack: ["Product Thinking", "QR Tech", "SQL", "Excel"],
     accent: "from-emerald-400 via-teal-500 to-cyan-600",
     links: {
-      github: "https://github.com/himanshukothariya/scan-n-shop",
+      github: "https://github.com/Himanshu6203/scan-n-shop",
       caseStudy: "/case-studies/scan-n-shop",
     },
     startup: true,

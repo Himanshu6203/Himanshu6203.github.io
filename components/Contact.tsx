@@ -123,7 +123,7 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
                   <span className="min-w-0">
                     <span className="block text-xs text-zinc-500">GitHub</span>
                     <span className="block truncate text-sm font-medium text-white">
-                      himanshukothariya
+                      Himanshu6203
                     </span>
                   </span>
                 </a>
@@ -139,7 +139,7 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
                   <span className="min-w-0">
                     <span className="block text-xs text-zinc-500">LinkedIn</span>
                     <span className="block truncate text-sm font-medium text-white">
-                      /in/himanshu-singh-kothariya
+                      Himanshu Singh Kothariya
                     </span>
                   </span>
                 </a>
